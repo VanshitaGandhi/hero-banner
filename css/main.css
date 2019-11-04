@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -22,22 +23,28 @@ body {
   max-height: 500px;
 }
 
-.banner-content{
+.banner-content {
   position: absolute;
   bottom: 1.5rem;
   max-width: 50em;
-  padding: 2em;
+  padding: 0 1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
 
 h2 {
+  display: inline;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
+  line-height: 1.4;
 }
 
 p {
-  bottom: 0;
-  left: 0;
   font-size: 2rem;
-  color: rgba(0, 0, 0, .5)
+  color: black;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: .5em;
 }
